@@ -20,7 +20,7 @@ document.getElementById('converter-form').addEventListener('submit', function(e)
         return;
     }
 
-    // Convert the amount using the exchange rates
+ // Convert the amount using the exchange rates
     const conversionRate = exchangeRates[fromCurrency][toCurrency];
     const convertedAmount = amount * conversionRate;
 
